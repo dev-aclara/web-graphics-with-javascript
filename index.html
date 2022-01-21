@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+
+            google.charts.load('current', {'packages':['corechart']});
+
+            //função que irá desenhar o gráfico pizza
+            function desenharPizza () {
+                
+                var tabela = new google.visualization.DataTable();
+                tabela.addColumn('string', 'categorias'); // Adicionar uma por uma (são duas columas e uma linha)
+                tabela.addColumn('number', 'valores'); // Adicionar o tipo e os nomes
+                tabela.addRows([
+                    ['Educação', 2000],
+                    ['Transporte', 500],
+                    ['Lazer', 230],
+                    ['Saúde', 50],
+                    ['Cartão de crédito', 900],
+                    ['Alimentação', 260]
+                ]);
+
+                var opcoes = {
+                    title: 'Tipo de Gastos: Gráfico Pizza',
+                    'height': 400,
+                    'width': 900,
+                    is3D: true,
+                    legend: 'labeled',
+                    pieSliceText: 'value',
+                    //colors:['grey', 'red', 'yellow', 'blue', 'pink', 'purple']
+
+                };
+
+                var grafico = new google.visualization.PieChart(document.getElementById('graficoPizza'));
+                grafico.draw(tabela, opcoes); // não pode deixar vazio
+
+                }
+
+                google.charts.setOnLoadCallback(desenharPizza);
+
+        </script>
+    </head>
+    <body>
+        <div id="graficoPizza"></div>
+    </body>
+</html>
