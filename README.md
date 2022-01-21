@@ -4,8 +4,8 @@
  
 Google Charts é um serviço interativo da Web que cria gráficos com informações fornecidas pelo usuário na qual é possível customizar suas visualizações.
   <p>
-Google Charts is an interactive web service that creates charts with users information that the developer can customize the views with data.
-  
+ Google Charts is an interactive web service that creates charts with user-supplied information on which to customize the views.
+ 
   - Todo processamento para criação do gráfico é executado pelo próprio Google.
   
   ![GRAFICO](https://user-images.githubusercontent.com/57874018/150456301-cd786bef-8cd4-426f-9b26-f162ef0cd636.png)
