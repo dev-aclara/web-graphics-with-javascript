@@ -1,4 +1,4 @@
-# :memo: **Case study: Web graphics with JavaScript 🚧 _STILL IN PROGRESS_**
+# :memo: **Case study: Web graphics with JavaScript**
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dev-aclara/web-graphics-with-javascript/blob/main/LICENSE)  ![GitHub last commit](https://img.shields.io/github/last-commit/dev-aclara/web-graphics-with-javascript) ![GitHub followers](https://img.shields.io/github/followers/dev-aclara?style=social)
  
